@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -53,15 +55,27 @@ namespace PresentationApp.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Picture")] Slide slide)
+        [ValidateAntiForgeryToken]              // ToDo: Ask Kenn About the Bind Section Here 
+        public async Task<IActionResult> Create([Bind("Id,Picture")] Slide slide , IFormFile Picture)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(slide);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if(Picture != null)
+                {
+                    byte[] resizedImg = null;
+                    using (var fs1 = Picture.OpenReadStream())
+                    using (var ms1 = new MemoryStream())
+                    {
+                        fs1.CopyTo(ms1); // ToDo: Ask Kenn about OpenReadStream and Memory Stream 
+                        resizedImg = ms1.ToArray();
+                    }
+                    slide.Picture = resizedImg;
+                }
+                 _context.Add(slide);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index)); // ToDo: Ask about this. nameof??
             }
+
             return View(slide);
         }
 
