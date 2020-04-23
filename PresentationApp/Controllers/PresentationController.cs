@@ -32,7 +32,6 @@ namespace PresentationApp.Controllers
             {
                 return NotFound();
             }
-
             var presentation = await _context.Presentation
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (presentation == null)
