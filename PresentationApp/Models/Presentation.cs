@@ -17,5 +17,6 @@ namespace PresentationApp.Models
     {
         public int Id {get;set;}
         public byte[] Picture {get;set;}
+        public virtual Presentation Presentation {get;set;}
     }
 }
