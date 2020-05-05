@@ -20521,6 +20521,11 @@
   "RootNamespace": "PresentationApp",
   "Documents": [
     {
+      "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Views/Shared/_LoginPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Views/Presentation/Index.cshtml",
       "TargetPath": "Views\\Presentation\\Index.cshtml",
       "FileKind": "mvc"
@@ -20561,6 +20566,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
@@ -20568,11 +20578,6 @@
     {
       "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Views/Slide/Edit.cshtml",
       "TargetPath": "Views\\Slide\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Views/HelloWorld/Index.cshtml",
-      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -20586,8 +20591,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Views/HelloWorld/Welcome.cshtml",
-      "TargetPath": "Views\\HelloWorld\\Welcome.cshtml",
+      "FilePath": "/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/Areas/Identity/Pages/_ViewStart.cshtml",
+      "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {

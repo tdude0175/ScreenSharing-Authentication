@@ -25,10 +25,16 @@ namespace PresentationApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
 
-            services.AddDbContext<PresentationContext>
-            (options => options.UseSqlite(Configuration.GetConnectionString("PresentationContext")));
+
+            
+
+            // services.AddDbContext<PresentationContext>
+            // (options => options.UseSqlite(Configuration.GetConnectionString("PresentationContext")));
+            // services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+            //     .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddControllersWithViews();
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,6 +55,7 @@ namespace PresentationApp
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

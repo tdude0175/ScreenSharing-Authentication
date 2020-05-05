@@ -173,3 +173,15 @@
 /home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/obj/Debug/netcoreapp3.1/Razor/Views/Slide/Details.cshtml.g.cs
 /home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/obj/Debug/netcoreapp3.1/Razor/Views/Slide/Edit.cshtml.g.cs
 /home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/obj/Debug/netcoreapp3.1/Razor/Views/Slide/Index.cshtml.g.cs
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/PresentationApp.StaticWebAssets.xml
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.UI.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Embedded.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/home/student/PersonalProjects/resumeBuilder/2020MarProjects/ScreenSharing/PresentationApp/obj/Debug/netcoreapp3.1/PresentationApp.MvcApplicationPartsAssemblyInfo.cs
